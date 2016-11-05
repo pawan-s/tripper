@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- Your app title -->
+  <title>Tripper App</title>
+  <!-- Path to Framework7 iOS CSS theme styles-->
+  <!--     <link rel="stylesheet" href="framework7.min.css"> -->
+  <link rel="stylesheet" href="framework7.ios.min.css">
+  <!-- Path to Framework7 iOS related color styles -->
+  <link rel="stylesheet" href="framework7.ios.colors.min.css">
+  <!-- Path to your custom app styles-->
+  <link rel="stylesheet" href="my-app.css">
+</head>
+<body>
+  <!-- Status bar overlay for full screen mode (PhoneGap) -->
+  <div class="statusbar-overlay"></div>
+  <!-- Panels overlay-->
+  <div class="panel-overlay"></div>
+  <!-- Left panel with reveal effect-->
+  <div class="panel panel-left panel-reveal">
+    <div class="content-block">
+      <p>Left panel content goes here</p>
+    </div>
+  </div>
+  <div class image>
+    <img class="Tripper-banner" src="img/Banner.png">
+    <span><h3>Hello, Roger. we found <br> some trips you might like.</h3></span>
+  </div>
+  <!-- Views -->
+  <div class="views">
+    <!-- Your main view, should have "view-main" class -->
+    <div class="view view-main">
+      <!-- Top Navbar-->
+
+      <div class="navbar tripper-navbar">
+        <div class="navbar-inner">
+          <!-- We need cool sliding animation on title element, so we have additional "sliding" class -->
+          <div class="swiper-container swiper-3">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><span>Recent</span></div>
+              <div class="swiper-slide"><span>Popular</span></div>
+              <div class="swiper-slide"><span>Weekend</span></div>
+              <div class="swiper-slide"><span>Following</span></div>
+            </div>
+          </div>
+            <!-- <div class="center sliding">Awesome App</div>
+            <div class="right">
+              
+                Right link contains only icon - additional "icon-only" class
+                Additional "open-panel" class tells app to open panel when we click on this link
+             
+              <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+            </div> -->
+          </div>
+        </div>
+        <!-- Pages container, because we use fixed-through navbar and toolbar, it has additional appropriate classes-->
+        <div class="pages navbar-through toolbar-through">
+          <!-- Page, "data-page" contains page name -->
+          <div data-page="index" class="page page-on-center">
+            <!-- Scrollable page content -->
+            <div class="page-content home-page-content">
+              <!-- Content Here -->
+              
+              <div class="card Tripper-card">
+                <img class="coverImage" src="img/trip1yosemite.jpg">
+                <div class="card-content">
+                  <div class="card-content-inner">
+                    <p>Road trip in Yosemite, CA</p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="link">Like</a>
+                  <a href="#" class="link">Read more</a>
+                </div>
+              </div>
+
+              <div class="card Tripper-card">
+                <img class="coverImage" src="img/trip1yosemite.jpg">
+                <div class="card-content">
+                  <div class="card-content-inner">
+                    <p class="color-gray">Posted on January 21, 2015</p>
+                    <p>Quisque eget vestibulum nulla...</p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <a href="#" class="link">Like</a>
+                  <a href="#" class="link">Read more</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Bottom Toolbar-->
+        <div class="toolbar">
+          <div class="toolbar-inner">
+            <!-- Toolbar links -->
+            <a href="#" class="link">Link 1</a>
+            <a href="#" class="link">Link 2</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="my-app.js"></script>
+  </body>
+  </html>              
