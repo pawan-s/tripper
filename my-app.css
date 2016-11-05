@@ -1,0 +1,130 @@
+.tripper-navbar{
+	background: #4A90E2;
+	color: white;
+}
+
+.Tripper-banner{
+	width: 100%;
+	height: auto;
+	position: relative; 
+}
+
+h3 { 
+position: absolute;
+   text-align: center;
+   top: 190px; 
+   left: 0; 
+   width: 100%; 
+}
+
+.Tripper-card{
+	margin: 10px 0;
+	border-radius: 0;
+
+}
+
+/*Onbording Style sheet*/
+.coverImage{
+	width: 100%;
+	height: auto;
+}
+
+.swiper-container {
+  height: 100%;
+}
+.swiper-slide {
+  background:#fff;
+}
+.swiper-slide span {
+  text-align:center;
+  display:block;
+  margin:20px;
+  font-size:21px;
+}
+
+.slideBase{
+  width: 100%;
+
+}
+.slideBG{
+  position: absolute; 
+  top: 30vw; 
+  height: 110vw;
+  border-radius: 1vw;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align:center;
+  margin: 0 10%;
+}
+
+.OnboardingLogo{
+  width: 30%;
+  margin-top: 10vw;
+}
+.headerLogo{
+  font-family: Roboto;
+  font-size: 8vw;
+}
+
+.h2Header{
+margin: 10px 10px;
+}
+
+.OnboardingP{
+margin: 0 20px;
+font-family: Roboto;
+font-size: 4vw;
+}
+
+.notificationButton {
+    background-color: #0099DE; /* Green */
+    border: none;
+    color: white;
+    margin: 20px 20px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 1vw;
+    font-size: 4vw; font-family: Roboto;
+}
+
+/*Modify pagination bullet*/
+span.swiper-pagination-bullet{
+  background: white;
+  opacity: 1;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active{
+  background: #0099DE;
+}
+
+.swiper-pagination{
+  margin-bottom: 30vw;
+}
+
+.SignupLoginButton{
+  border-radius: 1vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 100px 10px;
+  padding: 15px 42px;
+  display: inline-block;
+  font-size: 4vw; font-family: Roboto;
+}
+
+.addMargin{
+  margin-top: 170px;
+}
+
+.SignUpButton{
+  color: white;
+  background-color: rgba(255, 75, 56, 0.9);
+}
+
+.loginButton{
+  color: #030303;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
