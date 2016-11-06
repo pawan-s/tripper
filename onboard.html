@@ -22,10 +22,10 @@
   <!-- Views -->
   <div class="views tabs">
     <!-- Your main view -->
-    <div class="view view-main">
+    <div id="view-1" class="view view-main tab active">
       <!-- Pages -->
       <div class="pages">
-        <div class="page no-tabbar toolbar-fixed page-on-center" data-page="view-main">
+        <div class="page" data-page="view-main">
           <div class="page-content">
 
             <div class="swiper-container">
@@ -99,16 +99,15 @@
     </div>
 
     <!-- view 2 -->
-<!--     <div class="view view-2">
-
+    <div id="view-2" class="view tab">
       <div class="pages">
         <div class="page" data-page="view2">
           <div class="page-content">
-            ... page content goes here ...
+            <a href="#view-1" class="tab-link">Back to view 1</a>
           </div>
         </div>
       </div>
-    </div> -->  
+    </div>  
   </div>
 
   <!-- Path to Framework7 Library JS-->

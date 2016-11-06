@@ -15,6 +15,9 @@ var mainView = myApp.addView('.view-main', {
   // Because we want to use dynamic navbar, we need to enable it for this view:
   dynamicNavbar: true
 });
+var view1 = myApp.addView('#view-1');
+var view2 = myApp.addView('#view-2');
+// var view3 = myApp.addView('#view-3');
 
 
 // Onboarding Page
