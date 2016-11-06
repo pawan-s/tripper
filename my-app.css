@@ -44,7 +44,7 @@ position: absolute;
 
 .slideBase{
   width: 100%;
-
+  height: auto;
 }
 .slideBG{
   position: absolute; 
@@ -76,7 +76,7 @@ font-size: 4vw;
 }
 
 .notificationButton {
-    background-color: #0099DE; /* Green */
+    background-color: #0099DE; 
     border: none;
     color: white;
     margin: 20px 20px;
@@ -107,10 +107,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   text-align: center;
   text-decoration: none;
 /*  margin: 100px 10px;*/
-  bottom: 50px;
+  bottom: 20%;
   padding: 15px 42px;
   display: inline-block;
   font-size: 4vw; font-family: Roboto;
+  position: relative;
 }
 
 .addMargin{
