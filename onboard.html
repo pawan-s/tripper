@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Required meta tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <!-- Your app title -->
+  <title>My App</title>
+  <!-- Path to Framework7 Library CSS, iOS Theme -->
+  <link rel="stylesheet" href="framework7.ios.min.css">
+  <!-- Path to Framework7 color related styles, iOS Theme -->
+  <link rel="stylesheet" href="framework7.ios.colors.min.css">
+  <!-- Path to your custom app styles-->
+  <link rel="stylesheet" href="my-app.css">
+</head>
+<body>
+  <!-- Status bar overlay for full screen mode (PhoneGap) -->
+  <div class="statusbar-overlay"></div>
+
+  <!-- Views -->
+  <div class="views tabs">
+    <!-- Your main view -->
+    <div class="view view-main">
+      <!-- Pages -->
+      <div class="pages">
+        <div class="page" data-page="view-main">
+          <div class="page-content">
+
+            <div class="swiper-container">
+              <!-- Slides wrapper -->
+              <div class="swiper-wrapper">
+
+                <!-- Swipe Slides -->
+                <div class="swiper-slide">
+
+                  <img src="img/Onboardingimg1.jpg" class="slideBase">
+                  <div class="slideBG">
+                    <img src="img/logo.png" class="OnboardingLogo">
+                    <h1 class="headerLogo">Tripper</h1>
+                    <p class="OnboardingP"><b>Discover</b> the ultimate travel experience from tourists around the world</p>
+                    <a href="#" class="notificationButton confirm-ok-cancel">Allow Tripper to display an awesome trip nearby you</a>
+                    <p class="OnboardingP"><u>Deny</u></p>
+
+                    <a href="#view-2" class="SignupLoginButton SignUpButton tab-link">Sign Up</a>
+                    <a href="index.html" class="SignupLoginButton loginButton ">Login</a>
+                  </div>
+
+                </div>
+
+                <div class="swiper-slide slide2">
+                  <img src="img/Onboardingimg2.jpg" class="slideBase">
+                  <div class="slideBG">
+                    <img src="img/logo.png" class="OnboardingLogo">
+                    <h1 class="headerLogo">Tripper</h1>
+                    <p class="OnboardingP"><b>Follow</b> your favorite tourists and get their latest trip experience.</p>
+                    <a href="#" class="notificationButton open-3-modal">Allow Tripper to notify new trips and activities</a>
+                    <p class="OnboardingP"><u>Deny</u></p>
+
+                    <a href="#" class="SignupLoginButton SignUpButton">Sign Up</a>
+                    <a href="#" class="SignupLoginButton loginButton">Login</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide slide3">
+                  <img src="img/Onboardingimg3.jpg" class="slideBase">
+                  <div class="slideBG">
+                    <img src="img/logo.png" class="OnboardingLogo">
+                    <h1 class="headerLogo">Tripper</h1>
+                    <p class="OnboardingP"><b>Share</b> your trip experience after get back from the trip. Your trip experience will become an inspiration for other tourists around the world.</p>
+
+                    <a href="#" class="SignupLoginButton SignUpButton addMargin">Sign Up</a>
+                    <a href="#" class="SignupLoginButton loginButton addMargin">Login</a>
+                  </div>
+                </div>
+
+                <div class="swiper-slide slide4">
+                  <img src="img/Onboardingimg4.jpg" class="slideBase">
+                  <div class="slideBG">
+                    <img src="img/logo.png" class="OnboardingLogo">
+                    <h1 class="headerLogo">Tripper</h1>
+                    <h2 class="h2Header">Let’s get started</h2>
+                    <p class="OnboardingP">You can sign up for free! or login using email or facebook account.</p>
+
+                    <a href="#" class="SignupLoginButton SignUpButton addMargin">Sign Up</a>
+                    <a href="#" class="SignupLoginButton loginButton addMargin">Login</a>
+                  </div>
+                </div>
+              </div>
+              <!-- Pagination, if required -->
+              <div class="swiper-pagination"></div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- view 2 -->
+    <div class="view view-2">
+      <!-- Pages -->
+      <div class="pages">
+        <div class="page" data-page="view2">
+          <div class="page-content">
+            ... page content goes here ...
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+
+  <!-- Path to Framework7 Library JS-->
+  <script type="text/javascript" src="framework7.min.js"></script>
+  <!-- Path to your app js-->
+  <script type="text/javascript" src="my-app.js"></script>
+</body>
+</html> 
