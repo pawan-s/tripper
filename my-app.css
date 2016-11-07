@@ -61,7 +61,7 @@ position: absolute;
   margin-top: 10vw;
 }
 .headerLogo{
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 8vw;
 }
 
@@ -85,7 +85,7 @@ font-size: 4vw;
     text-decoration: none;
     display: inline-block;
     border-radius: 1vw;
-    font-size: 4vw; font-family: Roboto;
+    font-size: 4vw; font-family: 'Roboto', sans-serif;
 }
 
 /*Modify pagination bullet*/
@@ -110,7 +110,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   bottom: 20%;
   padding: 15px 42px;
   display: inline-block;
-  font-size: 4vw; font-family: Roboto;
+  font-size: 4vw; font-family: 'Roboto', sans-serif;
   position: relative;
 }
 
