@@ -107,7 +107,8 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   border-radius: 1vw;
   text-align: center;
   text-decoration: none;
-  margin: 50px 10px;
+  margin: 25vw 2vw;
+/*margin: 50px 10px;*/
 
   padding: 15px 42px;
   display: inline-block;
