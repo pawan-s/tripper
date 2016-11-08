@@ -1,3 +1,5 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css');
+
 .tripper-navbar{
 	background: #4A90E2;
 	color: white;
@@ -241,4 +243,29 @@ h3 span {
     padding: 0 10px; 
 }
 
+/*Personalize page customize*/
+.later{
+  color: #FE4B38;
+}
 
+.Tripper-theme{
+  color: #0099DE;
+
+}
+
+.icon-arrow-right{
+  font-weight: 800;
+}
+
+.navLogo{
+  width: 15%;
+  margin: 0 auto;
+}
+
+.introContent{
+  text-align: center;
+}
+.introContent p{
+  font-size: 5vw;
+  color: #333;
+}
