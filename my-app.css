@@ -186,6 +186,12 @@ hr.line{
   display: inline-block;
 }
 
+.tripper-input1{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
 .input-font{
   font-size: 4vw; font-family: 'Roboto', sans-serif;
   padding: 10px;
@@ -197,5 +203,36 @@ hr.line{
 :-ms-input-placeholder { font-style:italic; color:#939393; } /* ie */
 input:-moz-placeholder { font-style:italic; color:#939393; }
 
+/*or line*/
+
+/*.username{
+  margin-top: : 20px;
+}*/
+
+h3 {
+    font-size: : 3vw; 
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin-top: -15px;
+    text-align: center;
+    z-index: 1;
+    /*    position: block;*/
+}
+
+h3:before {
+    border-top: 1px solid #dfdfdf;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 15px; left: 0; right: 0; bottom: 0;
+    width: 80%;
+    z-index: -1;
+}
+
+h3 span { 
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+/*    background-color: rgba(255, 255, 255, 0.4);*/
+    padding: 0 10px; 
+}
 
 
