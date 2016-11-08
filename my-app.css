@@ -10,11 +10,11 @@
 }
 
 h3 { 
-position: absolute;
-   text-align: center;
-   top: 190px; 
-   left: 0; 
-   width: 100%; 
+  position: absolute;
+  text-align: center;
+  top: 190px; 
+  left: 0; 
+  width: 100%; 
 }
 
 .Tripper-card{
@@ -79,29 +79,30 @@ position: absolute;
 
 #onboardh1{
   margin-top: 0;
+  font-size: 6vw;
 }
 
 .h2Header{
-margin: 10px 10px;
+  margin: 10px 10px;
 }
 
 .OnboardingP{
-margin: 0 20px;
-font-family: Roboto;
-font-size: 4vw;
+  margin: 0 20px;
+  font-family: Roboto;
+  font-size: 4vw;
 }
 
 .notificationButton {
-    background-color: #0099DE; 
-    border: none;
-    color: white;
-    margin: 20px 20px;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 1vw;
-    font-size: 4vw; font-family: 'Roboto', sans-serif;
+  background-color: #0099DE; 
+  border: none;
+  color: white;
+  margin: 20px 20px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 1vw;
+  font-size: 4vw; font-family: 'Roboto', sans-serif;
 }
 
 
@@ -124,7 +125,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   text-align: center;
   text-decoration: none;
   margin: 20vw 2vw;
-/*margin: 50px 10px;*/
+  /*margin: 50px 10px;*/
   padding: 15px 42px;
   display: inline-block;
   font-size: 4vw; font-family: 'Roboto', sans-serif;
@@ -133,29 +134,46 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 
 .addMargin{
   margin-top: 39vw;
-/*  margin-top: 120px;*/
+  /*  margin-top: 120px;*/
+}
+
+hr.line{
+  border-bottom: : 1px solid #8c8b8b;
+  margin: 0 8vw;
+}
+
+.orSignup{
+  margin-top: 5vw;
 }
 
 .signUp{
   border-radius: 1vw;
   text-align: center;
   text-decoration: none;
-  margin: 3vw;
+  margin: 2vw;
   padding: 15px 42px;
   display: inline-block;
   font-size: 4vw; font-family: 'Roboto', sans-serif;
 }
 
+.facebookButton{
+  color: white;
+  background-color: #4267B2;
+  /*  margin: 2vw;*/
+  padding: 15px 40px;
+  width: 60vw;
+}
+
 .SignUpButton{
   color: white;
   background-color: rgba(255, 75, 56, 0.9);
-  display: inline-block;
 }
 
 .cancelButton{
   margin: 10px;
   font-family: Roboto;
   font-size: 4vw;
+  display: block;
 }
 
 .loginButton{
