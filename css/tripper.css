@@ -54,6 +54,10 @@ i.tabbar-demo-icon-4 {
   height : auto;
 }
 
+.testbg{
+  background-color:white;
+}
+
 
 
 
@@ -165,6 +169,7 @@ i.tabbar-demo-icon-4 {
 
 .navbar-home .buttons-row .button:first-child{
   border-radius: 0px;
+/*  border-left-width: 0px;*/
   border-left-width: 1px;
   border-left-style: solid;
 }
