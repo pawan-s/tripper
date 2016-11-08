@@ -154,6 +154,7 @@ hr.line{
   padding: 15px 42px;
   display: inline-block;
   font-size: 4vw; font-family: 'Roboto', sans-serif;
+  width: 20vw;
 }
 
 .facebookButton{
@@ -162,6 +163,7 @@ hr.line{
   /*  margin: 2vw;*/
   padding: 15px 40px;
   width: 60vw;
+  border-radius: 1vw;
 }
 
 .SignUpButton{
@@ -179,6 +181,10 @@ hr.line{
 .loginButton{
   color: #030303;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login{
+  background-color: #0099DE;
 }
 
 .tripper-input{
@@ -203,15 +209,15 @@ hr.line{
 :-ms-input-placeholder { font-style:italic; color:#939393; } /* ie */
 input:-moz-placeholder { font-style:italic; color:#939393; }
 
+.buttonMargin{
+  margin-top: 25px;
+}
+
 /*or line*/
-
-/*.username{
-  margin-top: : 20px;
-}*/
-
-h3 {
-    font-size: : 3vw; 
+#or {
+    font-size: : 2px; 
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
     color: #333;
     margin-top: -15px;
     text-align: center;
