@@ -34,7 +34,7 @@ i.tabbar-demo-icon-4 {
 }
 
 .banner-img{
-  width : 100%;
+  width : 50%;
 /*  height: auto;*/
 }
 
@@ -52,10 +52,6 @@ i.tabbar-demo-icon-4 {
 }
 .navbar-home{
   height : auto;
-}
-
-.testbg{
-  background-color:white;
 }
 
 
