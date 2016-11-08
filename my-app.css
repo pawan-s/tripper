@@ -1,5 +1,9 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css');
 
+.whiteBackground{
+  background-color: white;
+}
+
 .tripper-navbar{
 	background: #4A90E2;
 	color: white;
@@ -243,6 +247,8 @@ h3 span {
     padding: 0 10px; 
 }
 
+
+
 /*Personalize page customize*/
 .later{
   color: #FE4B38;
@@ -268,4 +274,14 @@ h3 span {
 .introContent p{
   font-size: 5vw;
   color: #333;
+}
+
+.tripCat{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.margin5vw{
+  margin-top: 3vw;
 }
