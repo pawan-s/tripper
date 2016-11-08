@@ -57,13 +57,28 @@ position: absolute;
   margin: 0 10%;
 }
 
+.slideBG2{
+  height: 130vw;
+
+}
+
 .OnboardingLogo{
   width: 30%;
   margin-top: 10vw;
 }
+
+.OnboardingLogo2{
+  width: 20%;
+  margin-top: 3vw;
+}
+
 .headerLogo{
   font-family: 'Roboto', sans-serif;
   font-size: 8vw;
+}
+
+#onboardh1{
+  margin-top: 0;
 }
 
 .h2Header{
@@ -89,6 +104,7 @@ font-size: 4vw;
     font-size: 4vw; font-family: 'Roboto', sans-serif;
 }
 
+
 /*Modify pagination bullet*/
 span.swiper-pagination-bullet{
   background: white;
@@ -109,7 +125,6 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
   text-decoration: none;
   margin: 20vw 2vw;
 /*margin: 50px 10px;*/
-
   padding: 15px 42px;
   display: inline-block;
   font-size: 4vw; font-family: 'Roboto', sans-serif;
@@ -121,15 +136,48 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active{
 /*  margin-top: 120px;*/
 }
 
+.signUp{
+  border-radius: 1vw;
+  text-align: center;
+  text-decoration: none;
+  margin: 3vw;
+  padding: 15px 42px;
+  display: inline-block;
+  font-size: 4vw; font-family: 'Roboto', sans-serif;
+}
+
 .SignUpButton{
   color: white;
   background-color: rgba(255, 75, 56, 0.9);
+  display: inline-block;
+}
+
+.cancelButton{
+  margin: 10px;
+  font-family: Roboto;
+  font-size: 4vw;
 }
 
 .loginButton{
   color: #030303;
   background-color: rgba(255, 255, 255, 0.8);
 }
+
+.tripper-input{
+  margin: 10px;
+  display: inline-block;
+}
+
+.input-font{
+  font-size: 4vw; font-family: 'Roboto', sans-serif;
+  padding: 10px;
+  width: 60vw;
+}
+
+::-webkit-input-placeholder { font-style:italic; color:#939393; }
+::-moz-placeholder { font-style:italic; color:#939393; } /* firefox 19+ */
+:-ms-input-placeholder { font-style:italic; color:#939393; } /* ie */
+input:-moz-placeholder { font-style:italic; color:#939393; }
 
 
 

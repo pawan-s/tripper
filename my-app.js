@@ -17,7 +17,7 @@ var mainView = myApp.addView('.view-main', {
 });
 var view1 = myApp.addView('#view-1');
 var view2 = myApp.addView('#view-2');
-// var view3 = myApp.addView('#view-3');
+var view3 = myApp.addView('#view-3');
 
 
 // Onboarding Page
